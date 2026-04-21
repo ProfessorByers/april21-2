@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: mistyrose;
+      font-family: Roboto, tahoma, sans-serif;
+    }
+
+    button {
+      background-color: olive;
+      color: white;
+      font-family: roboto, tahoma, sans-serif;
+      text-transform: uppercase;
+    }
+
+    img, video {
+      display: block;           /* Makes margin auto work */
+      margin-left: auto;        /* Center horizontally */
+      margin-right: auto;
+      max-width: 100%;          /* Prevent overflow on small screens */
+      height: auto;   
+    }
+
+    iframe {
+      display: block;           /* Makes margin auto work */
+      margin-left: auto;        /* Center horizontally */
+      margin-right: auto;
+      max-width: 100%;          /* Prevent overflow on small screens */
+      height: 400px;   
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Bodoni Moda SC, Times New Roman, serif;
+    }
+
+    #dive {
+     background-color: olive;
+      color: white;
+    }
+
+    .logoimg {
+      margin-left: 0px;
+    }
+
+    #hero {
+      background-image: url(collegedesks.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .herotxt {
+      position: absolute;
+      color: white;
+    }
+
+ul {
+  list-style-type: none;        /* removes default bullet points from the list */
+  display: flex;                /* makes the <ul> a flex container for horizontal layout */
+  margin: 0;                    /* removes default outer spacing */
+  padding: 0;                   /* removes default inner spacing */
+  align-items: center;          /* vertically centers child items within the nav bar */
+  background-color: olive;      /* sets the background color of the nav bar */
+}
+
+ul li a {
+  display: block;               /* makes links fill the clickable area like a block */
+  color: white;                 /* sets text color to white */
+  padding: 14px 16px;           /* adds space inside each link (top/bottom, left/right) */
+  text-decoration: none;        /* removes underline from links */
+  font-family: Bodoni Moda SC, Times New Roman, serif; /* sets font with fallbacks */
+}
+
+ul li a:hover {
+  background-color: mistyrose; /* changes background on hover */
+  color: black;    /* changes text color on hover */
+}
+  
+ form {
+   background-color: olive;
+    color: white;
+     font-family: Bodoni Moda SC, Times New Roman, serif;
+      border: 5px solid white;
+      padding: 50px;
+  }
+  </style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li>
+      <a href="index.html">
+        <img src="APPLE_LOGO_2.png" alt="apple logo">
+      </a>
+    </li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#Values">Key Values</a></li>
+    <li><a href="#social-proof">Social Proof</a></li>
+    <li><a href="#dive">Deep Dive</a></li>
+    <li><a href="#CTA">Secondary CTA</a></li>
+  </ul>
+</nav>
+
+
+  <section id="hero">
+    <div class="herotxt">
+      <h1>THIS IS MY HERO STATEMENT.</h1>
+    </div>
+    </section>
+
+<section id="Values">
+<h4 class="headings">This is my first key value.</h4>
+  <p>This gives the site visitor more information.</p>
+<h4 class="headings">This is my second key value.</h4>
+  <p>This gives the site visitor more information.</p>
+<h4 class="headings">This is my third key value.</h4>
+  <p>This gives the site visitor more information.</p>
+</section>
+
+<section id="social-proof">
+<img src="european-shorthair-8601492_1280.jpg" alt="a cat" class="imgright">
+<h4 class="headings">Here's what our customers have to say:</h4>
+<p>"excellent!" - Todd </p>
+<p> "highly recommend." - Lincoln </p>
+<p> "I will be returning again!" - Mary </p>
+</section>
+
+<section id="dive">
+  <h4 class="headings">This section gives visitors more information. </h4>
+  <h4 class="headings"> This is an example of a list. </h4>
+<ul>
+  <li>This is my first list item.</li>
+  <li>This is my second list item.</li>
+  <li>This is my third list item.</li>
+</ul>
+<iframe width="560" height="400" src="https://www.youtube.com/embed/qwNbjGyhZ48?si=Je4kUlzFUDZwtAJ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+ <br>
+ <br>
+ <br>
+ <br>
+ <div> <video controls src="Photo Manipulation in Photoshop  Typography Photoshop Tutorial.mp4"></video>
+  </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <section id="CTA">
+<a href="https://www.instagram.com/collegeofwestchester">
+  <button>Follow Us On Instagram</button>
+  </a>
+ <form
+  action="https://formspree.io/f/xkopklrb"
+  method="POST"
+>
+<h2>Contact Me</h2>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <br>
+  <br>
+  <br>
+  <div>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>   
+</section>
+
+  <br>
+  <br>
+  <br>
+
+  <footer>
+<p>
+  &copy; 2026 Educational Tester 2. All Rights Reserved.
+</p>
+  </footer>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</body>
+</html>
